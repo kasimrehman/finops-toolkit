@@ -62,6 +62,7 @@ resource keyVault 'Microsoft.KeyVault/vaults@2022-11-01' = {
     enabledForTemplateDeployment: true
     enabledForDiskEncryption: true
     enableSoftDelete: true
+    enablePurgeProtection: true
     softDeleteRetentionInDays: 90
     enableRbacAuthorization: false
     createMode: 'default'
